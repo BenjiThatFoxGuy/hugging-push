@@ -18,7 +18,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: backendcloud/hugging-push@v0.2.3
+      - uses: BenjiThatFoxGuy/hugging-push@v0.2.4
         with:
           # The Hugging Face repo id you want to sync to.
           # A repo with this name will be created if it doesn't exist. Required.
@@ -47,4 +47,4 @@ jobs:
           space_sdk: 'gradio'
 ```
 
-> `- uses: actions/checkout@v2` is not needed, because it's already included in this Action. backendcloud/hugging-push
+> `- uses: actions/checkout@v2` is not needed, because it's already included in this Action. BenjiThatFoxGuy/hugging-push

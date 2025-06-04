@@ -24,8 +24,6 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - name: Checkout current Repo
-      uses: actions/checkout@v2
     - name: Push to Hugging Face
       shell: bash
       run: |
